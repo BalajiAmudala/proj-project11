@@ -1,0 +1,134 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    margin:40px;
+    font-family:sans-serif;
+}
+.navbar-container>div>img{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 30px; */
+}
+
+.list li{
+    list-style-type: none;
+    display:flex;
+    margin-right:30px;
+    font-size:25px;
+}
+.list li:hover{
+    font-weight: 600;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.button-group{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: flex-end;
+    margin-top:5px;
+    margin-right: -6px; 
+}
+
+.search-icon svg{
+    width:30px !important;
+    height:25px !important;
+    margin-top: 15px;
+}
+.nav-button{
+    padding:10px 40px;
+    border-radius: 10px;
+    font-size:20px;
+    margin-left:10px;
+}
+
+/* hero-container */
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.square{
+    position: relative;
+    width:70px;
+    top:170px;
+    left:95px;
+}
+.star{
+   position: relative; 
+   left:960px;
+   top:50px
+  
+}
+.star img{
+    height:50px;
+    width:50px;
+}
+.globe{
+    position: relative;
+    left:550px;
+}
+.globe img{
+    width:50px;
+    height:50px;
+}
+.globe+div>img{
+    position: relative;
+    width:400px;
+    height:500px;
+    right:130px;
+    top: 25px;
+}
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    width: 75% !important;
+    margin-top: 88px;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-heading{
+    font-size:52px;
+    font-family: sans-serif;
+}
+.hero-description{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.button-email{
+margin-top: 60px;
+background-color: #fff;
+padding: 3px 20px;
+border-radius: 6px;
+color:#5a5a58;
+border:1px solid black;
+margin-right:15px;
+}
+.button-join{
+    margin-top: 60px;
+    background-color: rgb(0,0,0);
+    color: #fff;
+    border-radius: 5px;
+    padding:2.5px 3px;
+    font-family: sans-serif;
+}
+
+.contact-heading{
+    margin-top:60px;
+    color: #848480;
+    font-family: sans-serif;
+}
+.icons>span>img{
+   margin-right: 13px;
+}
